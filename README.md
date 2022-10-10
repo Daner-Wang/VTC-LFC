@@ -52,7 +52,7 @@ The directory structure is the standard layout for the torchvision [`datasets.Im
       img4.jpeg
 ```
 
-## downloading pretrained models
+## Pretrained models
 
 You can download the official pretrained models from here.
 
