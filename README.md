@@ -58,9 +58,9 @@ You can download the official pretrained models from here.
 
 | name | acc@1 | acc@5 | #params | url |
 | --- | --- | --- | --- | --- |
-| DeiT-tiny | 72.2 | 91.1 | 5M | [model](https://drive.google.com/file/d/1NSq3SRxnObfl6oaFE5gHtjnhzm0Lfc6S/view?usp=sharing) |
-| DeiT-small | 79.9 | 95.0 | 22M| [model](https://drive.google.com/file/d/1pi8IOo35qcTuHl1yL4lOTqD0qj5LFsp-/view?usp=sharing) |
-| DeiT-base | 81.8 | 95.6 | 86M | [model](https://drive.google.com/file/d/1JvFJ6IQo1vxI1sMeURtkxEINy1tmKDNa/view?usp=sharing) |
+| DeiT-tiny | 72.2 | 91.1 | 5M | [model](https://dl.fbaipublicfiles.com/deit/deit_tiny_patch16_224-a1311bcf.pth) |
+| DeiT-small | 79.9 | 95.0 | 22M| [model](https://dl.fbaipublicfiles.com/deit/deit_small_patch16_224-cd65a155.pth) |
+| DeiT-base | 81.8 | 95.6 | 86M | [model](https://dl.fbaipublicfiles.com/deit/deit_base_patch16_224-b5f2ef4d.pth) |
 
 ## Pruning
 To pruning a pre-trained DeiT model on ImageNet:
