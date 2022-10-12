@@ -21,6 +21,14 @@ We provide compressed DeiT models fine-tuned on ImageNet 2012.
 | DeiT-small | 79.4 | 94.6 | 2.1G | 17.7M | [model](https://drive.google.com/file/d/1pi8IOo35qcTuHl1yL4lOTqD0qj5LFsp-/view?usp=sharing) |
 | DeiT-base | 81.3 | 95.3 | 7.5G | 63.5M | [model](https://drive.google.com/file/d/1JvFJ6IQo1vxI1sMeURtkxEINy1tmKDNa/view?usp=sharing) |
 
+We also provide the pruned models without fine-tuning.
+
+| name | #FLOPs | #params | url |
+| --- | --- | --- | --- |
+| DeiT-tiny w/o fine-tuning | 0.7G | 5.1M | [model](https://drive.google.com/file/d/1thTwwgc_qxpZ4XI-5bj58Rj2m8CK6Rar/view?usp=sharing) |
+| DeiT-small w/o fine-tuning | 2.1G | 17.7M | [model](https://drive.google.com/file/d/1L5dj-xIhnsicwy8RC89wl83rJfdjx2Uv/view?usp=sharing) |
+| DeiT-base w/o fine-tuning | 7.5G | 63.5M | [model](https://drive.google.com/file/d/1MYb7WnJSVjrYacBOeuzEbksDf8bdaD5u/view?usp=sharing) |
+
 # Usage
 
 First, clone the repository locally:
