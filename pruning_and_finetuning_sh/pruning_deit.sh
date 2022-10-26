@@ -1,0 +1,24 @@
+# CUDA_VISIBLE_DEVICES=0,1,2,3 \
+python -m torch.distributed.launch --master_port 29500 --nproc_per_node=2 --use_env ./pruning/pruning_py/pruning_deit.py \
+--device cuda \
+--data-set IMNET \
+--batch-size 128 \
+--num-classes 1000 \
+--dist-eval \
+--model deit_small_cfged_patch16_224 \
+--data-path  \
+--resume  \
+--prune-part qkv,fc1 \
+--prune-criterion lfs \
+--prune-block-id 0,1,2,3,4,5,6,7,8,9,10,11 \
+--cutoff-channel 0.1 \
+--cutoff-token 0.85 \
+--lfs-lambda 0.1 \
+--prune-rate 0.0 \
+--num-samples 2000 \
+--keep-qk-scale \
+--prune-mode bcp \
+--allowable-drop 9.5 \
+--drop-for-token 0.56 \
+--prune --prune-only \
+--output-dir  \
