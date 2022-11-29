@@ -3,7 +3,7 @@
 This repository contains PyTorch evaluation code, training code and pretrained models for the following projects:
 * VTC-LFC (Vision Transformer Compression with Low-Frequency Components), NeurIPS 2022
 
-For details see [VTC-LFC: Vision Transformer Compression with Low-Frequency Components](https://openreview.net/forum?id=HuiLIB6EaOk) by Zhenyu Wang, Hao Luo, Pichao Wa, Feng Ding, Fan Wan, and Hao Li. 
+For details see [VTC-LFC: Vision Transformer Compression with Low-Frequency Components](https://openreview.net/forum?id=HuiLIB6EaOk) by Zhenyu Wang, Hao Luo, Pichao Wang, Feng Ding, Fan Wan, and Hao Li. 
 
 ## Pipeline
 
